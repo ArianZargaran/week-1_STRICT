@@ -149,7 +149,7 @@ body {
 /*GALERY*/
 .gallery{
   background: #F6F9F9;
-  padding-top: 55px;
+  padding: 55px 0;
 .gallery__heading {
   font-size: 41px;
   color: #2d3950;
@@ -166,23 +166,98 @@ body {
 .gallery__list {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  .gallery-item {
-    display: block;
-    width: 33%;
-    background-size: 33% 100%;
-    .gallery-link {
-      background-color: red;
-      height: 100%;
-      width:100%;
+  .gallery-link {
+    display: inline-block;
+      font-weight: 400;
+      margin: 2% 1% 0%;
+      padding:10px;
+      width: 25%;
+    .gallery-item img {
+    	height: 100%;
+    	width:100%;
     }
   }
 }
 
-.gallery-link--1 {background: url(http://codifyacademy.com/week1/advanced/img/work6.png);}
-.gallery-link--2 {background: url(http://codifyacademy.com/week1/advanced/img/work5.png);}
-.gallery-link--3 {background: url(http://codifyacademy.com/week1/advanced/img/work4.png);}
-.gallery-link--4 {background: url(http://codifyacademy.com/week1/advanced/img/work3.png);}
-.gallery-link--5 {background: url(http://codifyacademy.com/week1/advanced/img/work2.png);}
-.gallery-link--6 {background: url(http://codifyacademy.com/week1/advanced/img/work1.png);}
+/* END GALERY*/
+/*CONTACT*/
+.contact {
+	background-image: url(http://codifyacademy.com/week1/advanced/img/bg2.png);
+	padding: 100px 0;
+	text-align: center;
+  .contact__header {
+  	color:  #ffffff;
+  	font-size: 41px;
+  	font-weight: 400;
+  	margin: 20px 0;
+    }
+  .contact__paragraph {
+  	margin: 20px 0;
+  	color: #999999;
+  	font-size: 15px;
+  	font-weight: 400;
+  	line-height: 23px;
+    }
+  }
+
+.form__input {
+	background-color: transparent;
+	border-radius: 2px;
+	border: 1px solid #f6f9f9;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 10px;
+	width: 30%;
+}
+.form__area {
+  @extend .form__input;
+}
+
+.form__span {
+	color:  #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.form__button {
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	margin: 25px 0 0 50px;
+	padding: 10px 25px;
+}
+/* END CONTACT*/
+/*FOOTER*/
+.footer {
+  background-color: #F6F9F9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 70px;
+  .footer__copyright {
+  max-width: 200px;
+  }
+}
+
+.footer__social-menu {
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 250px;
+.footer__social-menu--item {
+    color: #fff;
+    padding: 7px;
+    background-color: #15a4fa;
+    text-decoration: none;
+    &:first-child{
+    padding: 7px 9px;
+    }
+  }
+}
+/*END FOOTER*/
