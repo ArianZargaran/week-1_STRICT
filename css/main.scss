@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/*HEADER*/
+.header {
+  background: #F6F9F9;
+  padding: 25px 100px;
+}
+
+/*HEADER LOGO*/
+.header__logo {
+  text-indent: -99999px;
+  background: transparent url(http://codifyacademy.com/week1/advanced/img/logo.png) no-repeat;
+  width: 154px;
+  height: 37px;
+  cursor: pointer;
+  .header__logo .header__logo-link {
+    display: block;
+    width: 280px;
+    height: 120px;
+    text-decoration: none;
+    border: 0;
+  }
+}
+
+/*END HEADER*/
+/*MAIN SECTION*/
+
+.main {
+  height: 800px;
+  background: url(http://codifyacademy.com/week1/advanced/img/bg1.png) repeat-x;
+  text-align: center;
+  padding: 225px 0;
+}
+
+/*H2*/
+
+.main__main-heading {
+  color: #fff;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 60px;
+}
+
+/*HR*/
+
+.main__separator {
+  border-color: #15a4fa;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*H3*/
+
+.main__main-claim {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 47px;
+  text-align: center;
+  margin: 17px 0;
+}
+
+/*CTA BUTTON*/
+
+.main__cta {
+  padding: 10px 15px;
+  color: white;
+  background-color: transparent;
+  border-top: 1px solid #15a4fa;
+  border-left: 1px solid #15a4fa;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.main__arrow-next {
+  display: block;
+  color: white;
+  margin-top: 100px;
+}
+
+/*END MAIN SECTION*/
+/*TESTIMONIAL*/
+
+.testimonial {
+  text-align: center;
+  padding: 90px 0 50px 0;
+  background-color: #F6F9F9;
+  .testimonial__heading {
+    font-size: 38px;
+    color: #414C61;
+    margin-bottom: 31px;
+  }
+  .testimonial__paragraph {
+    margin: 0 auto;
+    width:70%;
+    color: #999999;
+    font-weight: 400;
+  	line-height: 32px;
+  }
+}
+
+/*END TESTIMONIAL*/
+/*FEATURES*/
+
+.features {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-around;
+  .features__item {
+    min-width: 33%;
+    text-align: center;
+  .features__item-icon {
+    display: block;
+    margin: 0 auto;
+    line-height: 90px;
+    height: 98px;
+    width: 98px;
+    font-size: 41px;
+    color: #fff;
+    background-image: linear-gradient(to right, #1E5799, #207BC9 50%, #2989D8 50%, #7CB8E8);
+    }
+    .features__item-title {
+      margin: 20px 0;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .features__item-paragraph {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      padding: 0 15%;
+      margin: 0 auto;
+      color: #999;
+    }
+  }
+}
+
+/*END FEATURES*/
+/*GALERY*/
+.gallery{
+  background: #F6F9F9;
+  padding-top: 55px;
+.gallery__heading {
+  font-size: 41px;
+  color: #2d3950;
+  font-weight: bold;
+  text-align: center;
+}
+.gallery__paragraph {
+  text-align: center;
+  margin: 24px;
+  color: #909090;
+  }
+}
+
+.gallery__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .gallery-item {
+    display: block;
+    width: 33%;
+    background-size: 33% 100%;
+    .gallery-link {
+      background-color: red;
+      height: 100%;
+      width:100%;
+    }
+  }
+}
+
+.gallery-link--1 {background: url(http://codifyacademy.com/week1/advanced/img/work6.png);}
+.gallery-link--2 {background: url(http://codifyacademy.com/week1/advanced/img/work5.png);}
+.gallery-link--3 {background: url(http://codifyacademy.com/week1/advanced/img/work4.png);}
+.gallery-link--4 {background: url(http://codifyacademy.com/week1/advanced/img/work3.png);}
+.gallery-link--5 {background: url(http://codifyacademy.com/week1/advanced/img/work2.png);}
+.gallery-link--6 {background: url(http://codifyacademy.com/week1/advanced/img/work1.png);}
